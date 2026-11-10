@@ -31,3 +31,4 @@ for i in range(1,len(adatok)):
     if (auto_kora(ezev,adatok[i].evjarat) > auto_kora(ezev,adatok[max].evjarat)):
         max = i
 print(f"A legidősebb autó a kereskedésben: {adatok[max].rendszam} {adatok[max].marka} {auto_kora(ezev,adatok[max].evjarat)}")
+print()
